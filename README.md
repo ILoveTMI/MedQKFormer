@@ -84,14 +84,14 @@ python train.py --datasets ISIC2018
 concrete information see train.py, please
 ```
 
-### 3. Test the Net
+### 4. Test the Net
 
 ```
 python test.py --datasets ISIC2018
 concrete information see test.py, please
 ```
 
-### 3. Code example
+### 5. Code example
 
 ```
 python Test/example.py
