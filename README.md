@@ -113,6 +113,7 @@ Performance comparison with 14 SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 
 -->
 
 ## ✨ Statistical Significance Tests：Paired t-test p-values comparing our method with other SOTAs.
+<div align="center">
 | Model vs. Ours     | p-value  |
 |--------------------|----------|
 | U-Net              | 0.0609   |
@@ -129,6 +130,7 @@ Performance comparison with 14 SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 
 | QKFormer           | 0.007    |
 | STDV3              | 0.1083   |
 | FSTA-SNN           | 0.0185   |
+</div>
 
 <div align="center">
 Our method consistently achieves statistically significant improvements ($p<0.05$) over most baselines, validating the robustness of our performance gains.
