@@ -115,7 +115,7 @@ Performance comparison with 14 SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 
 ## ✨ Statistical Significance Tests：Paired t-test p-values comparing our method with other SOTAs.
 
 <table align="center"><thead><tr><th>Model vs. Ours</th><th>p-value</th></tr></thead><tbody><tr><td>U-Net</td><td>0.0609</td></tr><tr><td>UCTransNet</td><td>0.1501</td></tr><tr><td>D-LKA</td><td>0.0626</td></tr><tr><td>EGE-UNet</td><td>0.0218</td></tr><tr><td>SAM-Med2D</td><td>0.0159</td></tr><tr><td>SDSA</td><td>0.0208</td></tr><tr><td>MLW-Net</td><td>0.015</td></tr><tr><td>UltraLight VM-UNet</td><td>0.0083</td></tr><tr><td>MFMSA</td><td>0.015</td></tr><tr><td>VPTTA</td><td>0.0093</td></tr><tr><td>EMCAD</td><td>0.0156</td></tr><tr><td>QKFormer</td><td>0.007</td></tr><tr><td>STDV3</td><td>0.1083</td></tr><tr><td>FSTA-SNN</td><td>0.0185</td></tr></tbody></table>
-<div align="center">Our method consistently achieves statistically significant improvements (p&\#x3C;0.05) over most baselines, validating the robustness of our performance gains.</div>
+<div align="center">Our method consistently achieves statistically significant improvements (p<0.05) over most baselines, validating the robustness of our performance gains.</div>
 
 ## 🖼️ Visualization of Ablation Results
 
