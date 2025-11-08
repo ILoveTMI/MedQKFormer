@@ -37,9 +37,11 @@ Illustration of the overall architecture.
 
 - [x] Release code
 
+<!-- 
 ## 🎮 Getting Started
+-->
 
-### 1. Install Environment
+## 1. Install Environment
 
 ```
 conda create -n Net python=3.8
@@ -53,9 +55,9 @@ pip install triton==2.0.0
 pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs PyWavelets
 ```
 
-### 2. Datasets and Experiment Details
+## 2. Datasets and Experiment Details
 
-#### 2.1 Datasets  
+### 2.1 Datasets  
 Our method is evaluated on 5 public datasets of different modalities, including ISIC2018, Kvasir, BUSI, Monu-Seg, and COVID-19.  
 
 - **ISIC2018**: A relatively large dataset for skin cancer detection, containing 2,594 skin lesion images. It is split into 2,076 training images and 518 testing images.  ([link](https://challenge.isic-archive.com/data/#2018))
@@ -66,7 +68,7 @@ Our method is evaluated on 5 public datasets of different modalities, including 
 
 - Folder organization: put datasets into ./data folder.
 
-#### 2.2 Implementation Details  
+### 2.2 Implementation Details  
 We implement the method using PyTorch, with experiments conducted on an NVIDIA TITAN RTX GPU. Key parameters are as follows:  
 - **Optimizer**: AdamW  
 - **Learning Rate Scheduler**: CosineAnnealingLR  
@@ -77,25 +79,15 @@ We implement the method using PyTorch, with experiments conducted on an NVIDIA T
 - **Batch Size**: 12  
 - **Random Seed**: 41
 
-### 3. Train the Net
+## 3. Run the Net
 
 ```
 python train.py --datasets ISIC2018
-concrete information see train.py, please
-```
-
-### 4. Test the Net
-
-```
 python test.py --datasets ISIC2018
-concrete information see test.py, please
+concrete information see train.py and test.py, please
 ```
 
-### 5. Code example
 
-```
-python Test/example.py
-```
 <!-- 
 ## ⭐ Visualization
 
