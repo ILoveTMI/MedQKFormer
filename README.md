@@ -113,6 +113,7 @@ Performance comparison with 14 SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 
 -->
 
 ## ✨ Statistical Significance Tests：Paired t-test p-values comparing our method with other SOTAs.
+
 <div align="center">
 | Model vs. Ours     | p-value  |
 |--------------------|----------|
