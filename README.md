@@ -152,4 +152,4 @@ Our method consistently achieves statistically significant improvements ($p<0.05
 
 ## 🎫 License
 
-The content of this project itself is licensed under [LICENSE](https://github.com/ILoveAAAI/MedQKFormer?tab=Apache-2.0-1-ov-file).
+The content of this project itself is licensed under [LICENSE](https://github.com/ILoveTMI/MedQKFormer/blob/main/LICENSE).
