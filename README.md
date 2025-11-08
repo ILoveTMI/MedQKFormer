@@ -53,7 +53,7 @@ pip install triton==2.0.0
 pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs PyWavelets
 ```
 
-### 2. Prepare Datasets
+### 2. Datasets and Experiment Details
 
 #### 2.1 Datasets  
 Our method is evaluated on 5 public datasets of different modalities, including ISIC2018, Kvasir, BUSI, Monu-Seg, and COVID-19.  
@@ -96,7 +96,7 @@ concrete information see test.py, please
 ```
 python Test/example.py
 ```
-
+<!-- 
 ## ⭐ Visualization
 
 <div align="center">
@@ -106,7 +106,9 @@ python Test/example.py
 <div align="center">
 We compare our method against 14 state-of-the-art methods. The red box indicates the area of incorrect predictions.
 </div>
+-->
 
+<!-- 
 ## ✨ Quantitative comparison
 
 <div align="center">
@@ -116,7 +118,29 @@ We compare our method against 14 state-of-the-art methods. The red box indicates
 <div align="center">
 Performance comparison with 14 SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 and Monu-Seg datasets.
 </div>
+-->
 
+## ✨ Statistical Significance Tests：Paired t-test p-values comparing our method with other SOTAs.
+| Model vs. Ours     | p-value  |
+|--------------------|----------|
+| U-Net              | 0.0609   |
+| UCTransNet         | 0.1501   |
+| D-LKA              | 0.0626   |
+| EGE-UNet           | 0.0218   |
+| SAM-Med2D          | 0.0159   |
+| SDSA               | 0.0208   |
+| MLW-Net            | 0.015    |
+| UltraLight VM-UNet | 0.0083   |
+| MFMSA              | 0.015    |
+| VPTTA              | 0.0093   |
+| EMCAD              | 0.0156   |
+| QKFormer           | 0.007    |
+| STDV3              | 0.1083   |
+| FSTA-SNN           | 0.0185   |
+
+<div align="center">
+Our method consistently achieves statistically significant improvements ($p<0.05$) over most baselines, validating the robustness of our performance gains.
+</div>
 
 ## 🖼️ Visualization of Ablation Results
 
@@ -125,13 +149,13 @@ Performance comparison with 14 SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 
 </div>
 
 
-
+<!-- 
 ## 🖼️ Convergence Analysis
 
 <div align="center">
 <img width="800" alt="image" src="figures/curve.png?raw=true">
 </div>
-
+-->
 
 
 ## 🎫 License
